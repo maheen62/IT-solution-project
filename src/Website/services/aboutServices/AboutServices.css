@@ -1,0 +1,97 @@
+.AboutServices{
+    /* background-color: aquamarine; */
+    width: 100%;
+    /* height: 50vh; */
+    display: flex;
+    /* animation: moveup 5s linear forwards ease-in-out;
+    /* animation-delay: 8s; 
+    transform: translate(0px); */
+}
+
+.AboutWebuild{
+    width: 50%;
+    /* background-color: bisque; */
+    padding-left:5vw ;
+    padding-right: 3vw;
+    padding-top: 3vw;
+    line-height: 1.5;
+    text-align: justify;
+    animation: moveup 2s linear forwards ;
+    animation-delay: 6.5s;
+    opacity: 0;
+    transform: translate(0px);
+}
+
+.AboutWebuild h1{
+    font-size: 2.5vw;
+}
+
+.AboutWebuild p{
+    font-size: 1.3vw;
+}
+
+.AboutCollaborate p{
+    font-size: 1.3vw;
+}
+
+.AboutCollaborate h1{
+    font-size: 2.5vw;
+}
+
+.AboutCollaborate{
+    width: 50%;
+    /* background-color: rgb(134, 82, 20); */
+    padding-left: 3vw;
+    padding-right:6vw ;
+    padding-top: 2vw;
+    line-height: 1.7;
+    padding-left: 3vw;
+    text-align: justify;
+    animation: moveup 2s linear forwards ;
+    animation-delay: 6.5s;
+    opacity: 0;
+    transform: translate(0px);
+}
+
+.building{
+    font-size: 3vw;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+}
+
+@media (max-width : 1000px){
+    .AboutServices{
+        display: block;
+    }
+    .AboutWebuild{
+        width: 100%;
+        
+    }
+
+    .AboutWebuild h1{
+        font-size: 2.7rem;
+        text-align: center;
+    }
+
+    .AboutWebuild p{
+         font-size: 1.5rem;
+    }
+
+    .AboutCollaborate{
+        width: 100%;
+    }
+
+    .AboutCollaborate p{
+        font-size: 1.5rem;
+    }
+    
+    .AboutCollaborate h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,132 @@
+#Services{
+    width: 100%;
+    /* height: 110vh; */
+}
+
+#Services p{
+    padding-top: 1vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+
+
+.no-underline{
+    text-decoration: none;
+    text-align: center;
+}
+
+.underline{
+    text-decoration: underline;
+    text-align: center;
+    text-underline-offset: 1vw;
+
+}
+
+#Services h4{
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
+
+.service-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1vw;
+}
+
+.card{
+    width: calc(25% - 30px) ;
+    height: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px ;
+    margin-right: 15px;
+    padding: 1vw;
+    text-align: justify;
+    animation: moveup 2s linear forwards ;
+    animation-delay: 5s;
+    opacity: 0;
+    transform: translate(10px);
+}
+
+.card h3{
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
+
+.card img{
+    padding: 1vw;
+}
+
+.card img:hover{
+    transition: all 2s ease-in-out;
+}
+
+.card span{
+  font-size: 1.2vw;
+  line-height: 1.5;
+}
+
+.card:hover{
+    background-color: rgb(171, 171, 205);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+}
+
+@media (max-width : 1000px){
+    #Services{
+        margin-top: 2vw;
+        padding-top: 40vw;
+    }
+
+    .service-container{
+        display: block;
+    }
+
+    #Services p{
+        font-size: 12vw;
+        padding: 1vw;
+    }
+
+    #Services h4{
+        font-size: 5vw;
+        padding: 2vw 0;
+    }
+
+    .card{
+        width: 95%;
+        margin: 6vw 2vw;
+    }
+
+    .card img{
+        padding: 3vw;
+    }
+
+    .card span{
+        font-size: 5vw;
+        line-height: 1.5;
+        margin: 2vw o;
+    }
+
+    .card h3{
+        font-size: 6vw;
+        text-align: center;
+        margin: 3vw 0;
+    }
+    
+
+   
+}

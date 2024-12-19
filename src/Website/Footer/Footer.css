@@ -1,0 +1,70 @@
+
+.Footer {
+    background: linear-gradient(to top, #4f5d95, rgba(255, 255, 255, 0)),
+      url("https://img.freepik.com/free-vector/gradient-blue-abstract-technology-background_23-2149213765.jpg");
+    background-size: cover; /* Ensures the background image covers the entire area */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem 1rem;
+    /* color: white; */
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-box {
+    flex: 1 1 200px;
+    margin: 0 1rem;
+    text-align: center;
+  }
+  
+  .footer-box h2,
+  .footer-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-box p,
+  .footer-box ul,
+  .footer-box li {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-box li {
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .footer-box li:hover {
+    color: #ddd;
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons i:hover {
+    transform: scale(1.2);
+    color: #ddd;
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: #ddd;
+  }
+  

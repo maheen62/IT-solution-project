@@ -1,0 +1,165 @@
+.ContactUs{
+    background-color: rgb(252, 252, 255);
+    width: 60%;
+    box-shadow: 0 0 10px blue;
+    border-radius: 10px;
+    margin-top:18vw ;
+    margin-bottom: 5vw;
+    margin-left:  5vw;
+    margin-right:  5vw;
+    padding: 3vw;
+}
+
+#Contacts{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.inputBoxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputBoxes input,textarea{
+    width: 47%;
+    padding: 1vw 1vw;
+    margin-top: 2vw;
+    border-radius: 5px;
+    border: none;
+    margin-left:1vw ;
+    background-color: rgb(196, 196, 236);
+}
+
+input:active{
+    border: none;
+}
+
+.inputBoxes input:focus {
+    outline: none; 
+    border: none;  
+}
+
+textarea:active{
+    border: none;
+}
+
+.inputBoxes textarea:focus {
+    outline: none; 
+    border: none;  
+}
+
+.inputBoxes input:focus {
+    outline: none;
+    border: 2px solid rgb(239, 239, 244); 
+    box-shadow: 0 0 5px rgba(246, 246, 252, 0.5);
+}
+
+#textarea{
+    width: 97%;
+}
+
+.Sendbutton{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    padding: 1vw 1vw;
+    border: none;
+    background-color: rgb(117, 117, 118);
+    border-radius:10px ;
+    color: white;
+}
+
+/*  contact Details */
+
+.contactDetails{
+    width: 25%;
+    background-color: rgb(48, 48, 159);
+    margin-top:18vw ;
+    margin-bottom: 0vw;
+    margin-bottom: 5vw;
+    margin-left:  5vw;
+    margin-right:  5vw;
+    border-radius: 10px;
+    padding: 2vw;
+
+}
+
+.contactDetails h1{
+    color: white;
+    margin-top:1.5vw ;
+    margin-bottom: 0.3vw;
+}
+
+.contactDetails p{
+    color: rgb(114, 114, 187);
+    margin-bottom: 0.2vw;
+}
+
+#facebook{
+    color: white;
+    font-size: 2vw;
+    margin-right: 1vw;
+}
+
+#linkdin{
+    color: white;
+    font-size: 2vw;
+
+}
+
+.emailsId{
+    padding-bottom: 2.5vw;
+}
+
+@media (max-width: 1000px) {
+    #Contacts {
+        margin-top: 140vw;
+        display: block;
+        padding: none;
+    }
+
+    .ContactUs {
+        margin-top: 5vw;
+        text-align: start;
+        font-size: 0.8rem;
+        /* margin-right: 4vw; */
+        /* padding: 2vw; */
+        width: 85%;
+        text-align: center;
+
+    }
+
+    .inputBoxes input{
+        width: 100%;
+        padding: 4vw;
+    }
+
+    #textarea{
+        width: 100%;
+        padding: 4vw;
+    }
+
+   
+
+    .Sendbutton{
+        margin: 2vw auto;
+        padding: 3vw 3vw;
+    }
+
+    .contactDetails {
+        margin-top: 5vw;
+        padding: 5vw;
+        width: 80%;
+    }
+
+    .contactDetails h1{
+        margin-top: 4vw;
+    }
+
+    #facebook,
+    #linkdin {
+        font-size: 6vw;
+        margin-right: 2vw;
+    }
+
+    
+}

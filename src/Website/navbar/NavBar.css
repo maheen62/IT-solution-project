@@ -1,0 +1,117 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(26, 26, 98);
+    scroll-behavior: smooth;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  #navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px gray;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 0 2vw;
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .heading h1 {
+    font-size: 2.8rem;
+    margin-right: 1rem;
+  }
+  
+  .heading h2 {
+    font-size: 2rem;
+  }
+  
+  .anchorTags {
+    display: flex;
+    gap: 2rem;
+    margin-left: 400px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .anchorTags a {
+    color: rgb(81, 81, 133);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    margin-top: 8px;
+    text-align: center;
+  }
+  
+  .anchorTags a:hover {
+    color: rgb(47, 47, 110);
+  }
+  
+  .btn button {
+    padding: 0.8rem 1.3rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    border: none;
+    background-color: rgb(47, 47, 110);
+    color: white;
+    cursor: pointer;
+  }
+  
+  #boosIcon {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 1000px) {
+    .anchorTags {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 85px;
+      right: 0;
+      background-color: rgb(237, 237, 246);
+      width: 100%;
+      padding: 0px 0;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .anchorTags.active {
+      display: flex;
+    }
+  
+    .anchorTags a {
+      margin: 2px 0;
+      font-size: 1rem;
+      text-align: center;
+      color: rgb(35, 35, 96);
+    }
+  
+    .btn button {
+      padding: 0.5rem 1rem;
+      margin-left: 40vw;
+    }
+  
+    #boosIcon {
+      display: block;
+      font-size: 3rem;
+    }
+
+    .heading h2 {
+        text-align: center;
+    }
+  }
+  

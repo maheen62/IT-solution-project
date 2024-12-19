@@ -1,0 +1,124 @@
+#Careers{
+    width: 100%;
+    height: 650px;
+    /* background-color: aquamarine; */
+    padding: 2vw;
+}
+
+#Careers h1{
+    text-align: center;
+    text-decoration: underline 5px rgb(33, 33, 97);
+    font-size: 3rem;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.devWraper{
+   width: 100%;
+   display: flex;
+}
+
+.webDev{
+    width: 25%;
+    border-radius: 10px;
+    height: 100%;
+    text-align: center;
+    /* text-align: justify; */
+    /* background-color: chocolate; */
+    box-shadow: 0 0 10px gray;
+    margin-left: 3vw;
+    padding: 1.5vw;
+}
+
+.webDev h2{
+    font-size: 2rem;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.webDev p{
+    text-align: justify;
+    line-height: 1.5;
+    padding-bottom: 1.5vw;
+}
+
+.webDev button{
+    padding: 0.7vw 2.5vw;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(71, 71, 171);
+    font-size: 1.5rem;
+    border: none;
+
+}
+
+.webDev img{
+    padding: 1vw;
+}
+
+.webDev:hover{
+    background-color: rgb(137, 137, 204);
+    transition: all 0.5s ease-in-out;
+}
+
+.mobileDev{
+    width: 25%;
+    border-radius: 10px;
+    height: 100%;
+    padding: 1vw;
+    /* text-align: justify; */
+    text-align: center;
+    margin-left: 3vw;
+    box-shadow: 0 0 10px gray ;
+}
+
+.mobileDev:hover{
+    background-color: rgb(137, 137, 204);
+    transition: all 0.5s ease-in-out;
+}
+
+.mobileDev button{
+    padding: 0.7vw 2.5vw;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(71, 71, 171);
+    font-size: 1.5rem;
+    border: none;
+
+}
+
+.mobileDev h2{
+    font-size: 1.7rem;
+    padding-top: 1.7vw;
+    padding-bottom: 1.6vw;
+}
+
+.mobileDev p{
+    text-align: justify;
+    line-height: 1.5;
+    padding-bottom: 1.5vw;
+}
+
+
+.mobileDev img{
+    padding: 1vw;
+}
+
+@media (max-width : 1000px){
+    .devWraper{
+        display: block;
+        width: 100%;
+        padding-right: 4vw;
+    }
+
+    .webDev{
+        width: 100%;
+        margin-bottom: 8vw;
+        
+    }
+
+    .mobileDev {
+        width: 100%;
+        margin-bottom: 8vw;
+    }
+}
